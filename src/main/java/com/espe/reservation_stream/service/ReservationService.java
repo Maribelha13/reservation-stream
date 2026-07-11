@@ -1,6 +1,6 @@
-package com.espe.reservationstream.service;
+package com.espe.reservation_stream.service;
 
-import com.espe.reservationstream.model.ReservationEvent;
+import com.espe.reservation_stream.model.ReservationEvent;
 import java.util.List;
 
 public interface ReservationService {

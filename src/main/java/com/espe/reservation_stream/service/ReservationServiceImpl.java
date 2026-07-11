@@ -1,6 +1,6 @@
-package com.espe.reservationstream.service;
+package com.espe.reservation_stream.service;
 
-import com.espe.reservationstream.model.ReservationEvent;
+import com.espe.reservation_stream.model.ReservationEvent;
 import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -13,7 +13,6 @@ public class ReservationServiceImpl implements ReservationService {
         if (reservations == null) {
             return List.of();
         }
-
 
         return reservations.stream()
                 .filter(event -> event.getPrice() != null && event.getPrice() > 300.0)
